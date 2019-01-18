@@ -25,7 +25,8 @@ const calc = new Vue({
         addMark: function(){
             const marks = document.querySelector(".marks");
             
-            
+           if(this.mark != undefined && this.weight != undefined){
+
             
             this.marks.push(this.mark[this.x]);
             this.weights.push(this.weight[this.x])          
@@ -45,6 +46,8 @@ const calc = new Vue({
             marks.append(newMark);
             newMark.append(titleMark)
             this.x++;
+        }
+            
         },
     }
 });
