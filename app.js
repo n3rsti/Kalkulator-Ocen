@@ -25,13 +25,10 @@ const calc = new Vue({
         addMark: function(){
             const marks = document.querySelector(".marks");
             
-           if(this.mark != undefined && this.weight != undefined){
-
-            
             this.marks.push(this.mark[this.x]);
-            this.weights.push(this.weight[this.x])          
-            this.total += parseInt(this.marks[this.x] * this.weights[this.x]);
-            this.totalWeight += parseInt(this.weights[this.x]);
+            this.weights.push(this.weight[this.x]);         
+            this.total += parseFloat(this.marks[this.x] * this.weights[this.x]);
+            this.totalWeight += parseFloat(this.weights[this.x]);
             
 
             for(var count = 0; count < this.marks.length; count++){
@@ -49,5 +46,4 @@ const calc = new Vue({
         }
             
         },
-    }
-});
+    });

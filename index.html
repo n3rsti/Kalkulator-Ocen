@@ -18,7 +18,7 @@
         <input class="markInput" type="number" v-model="mark[x]" placeholder="Ocena" required>
         <input type="number" v-model="weight[x]" placeholder="Waga" required>
         <button v-on:click="addMark">Dodaj</button>
-        <h1>Razem: {{ total }} </h1>
+        <h1>Razem: {{ total.toFixed(2) }} </h1>
         <h1>Średnia: {{ averageMark.toFixed(2) }} </h1>
         <div class="marks">
 
