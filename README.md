@@ -5,4 +5,4 @@ Kalkulator, w którym możemy obliczyć średnią naszych ocen.
 - CSS
 - Vue.JS
 
-[Live](https://n3rsti.github.io/Kalkulator-Ocen/)
+[Live demo](https://n3rsti.github.io/Kalkulator-Ocen/)
