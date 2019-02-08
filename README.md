@@ -1,6 +1,6 @@
-# Kalkulator-Ocen
-Kalkulator, w którym możemy obliczyć średnią naszych ocen.
-## Został wykonany w:
+# School Grade Calculator
+Calculator that you can use to calculate your average school grade.
+## Made with:
 - HTML5
 - CSS
 - Vue.JS
