@@ -5,4 +5,4 @@ Calculator that you can use to calculate your average school grade.
 - CSS
 - Vue.JS
 
-[Live demo](https://n3rsti.github.io/Kalkulator-Ocen/)
+[Live demo](https://n3rsti.github.io/SchoolGradeCalculator/)
